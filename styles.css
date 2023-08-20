@@ -1,9 +1,29 @@
-.container{
-  color: white;
-  background-color: #1f2937;
-  padding-left: 20%;
-  padding-right: 20%;
+/* *{
+  border: 1px solid red;
+} */
 
+.container{
+  font-family: 'Roboto', sans-serif;
+}
+
+.subheader{
+  padding-right: 150px;
+  padding-bottom: 20px;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sign-up{
+  color: white;
+  background-color: #3882f6;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  border: 1px solid white;
 }
 
 .list{
@@ -22,8 +42,116 @@
 }
 
 .hero{
+  color: white;
+  background-color: #1f2937;
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.navbar{
+  color: white;
+  background-color: #1f2937;
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.social-proof{
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social-proof-heading{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.boxes{
+  display: flex; 
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+}
+
+.box-image{
+  height: 100px;
+  width: 100px;
+  background-color: bisque;
+  stroke: 1px solid black;
+  margin-bottom: 20px;
+
+}
+
+.box-text{
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+}
+
+.box-image{
+  align-self: center;
+}
+
+.quote{
+  background: #e5e5e5;;
+  color: black;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-text{
+  font-size: 28px;
+  font-style: italic;
+  color: #152937;
+}
+
+.author{
+  align-self: flex-end;
+  font-weight: 500;
+}
+
+.cta{
+  background-color: #3882f6;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  height: 150px;
+  align-items: center;
+}
+
+.cta-header{
+  font-size: 20px;
+  color:white;
+}
+
+.cta-text{
+  font-size: 17px;
+  color: white;
+  margin-top: -10px;
+}
+
+.footer{
+  text-align: center;
+  color: white;
+  background-color: #1f2937;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
